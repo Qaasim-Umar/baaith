@@ -39,9 +39,9 @@ const Faq = () => {
                 <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Got questions? We've got answers! Explore our Frequently Asked Questions for insights and information.</p>
             </div>
 
-            <div className="flex justify-center items-center flex-col lg:flex-row ">
+            <div className="flex justify-center items-center flex-col lg:flex-row gap-8">
 
-                <div className="w-2/5">
+                <div className="lg:w-2/5">
                     <Image
                         src='/assets/images/question.png'
                         alt="logo"
@@ -50,13 +50,13 @@ const Faq = () => {
                     />
                 </div>
 
-                <div className="w-3/5">
+                <div className="lg:w-3/5">
                     <section className="bg-[#F6FAF9] card-shadow w-fit rounded-lg" >
 
 
                         <div className="space-y-4">
                             {faqData.map((faq, index) => (
-                                <div key={index} className=" lg:w-[720px] min-w-[320px] ">
+                                <div key={index} className=" lg:w-[720px] min-w-[320px]">
                                     <button className=" p-[25px] flex items-center justify-between w-full" onClick={() => toggleAnswer(index)}>
                                         <h1 className=" font-montserrat font-bold text-[#2E2C2C] leading-[19.5px] ">{faq.question}</h1>
                                         <span className={`text-gray-400 bg-gray-200 rounded-full ${openIndex === index ? 'transform rotate-45' : ''}`}>
