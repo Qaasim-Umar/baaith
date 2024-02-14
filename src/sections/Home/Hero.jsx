@@ -33,8 +33,8 @@ const Hero = () => {
 
           <div><p className='text-[#5E6978] lg:mt-[18px] mt-[26px] font-montserrat text-[18px] font-medium leading-[21px] tracking-[0.356px]'>knowledge is a prerequisite for the creation of a just world in which authentic peace can prevail.</p></div>
 
-          <div className='mt-[80px] m-auto'>
-            <Link href="" className='font-montserrat rounded-lg bg-gradient-to-r from-themeBlue to-[#2DC8D6] text-[21px] text-[#ffffff] flex gap-3 justify-center items-center lg:w-[204px] lg:h-[62px] w-[127px] h-[41px]'>Enroll Now  <Image
+          <div className='lg:mt-[80px] m-auto lg:text-start my-14'>
+            <Link href="" className='font-montserrat rounded-lg bg-gradient-to-r from-themeBlue to-[#2DC8D6] lg:text-[21px] text-[#ffffff] flex gap-3 justify-center items-center lg:w-[204px] lg:h-[62px] w-[127px] h-[41px]'>Enroll Now  <Image
               src='assets/svg/arrow.svg'
               alt="logo"
               width={15}

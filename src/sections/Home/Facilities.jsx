@@ -34,7 +34,7 @@ const Facilities = () => {
 
 
       <div className="flex flex-col justify-center items-center mt-[70px] gap-[19]">
-        <h1 className='text-[#28374B] text-[40px] font-prosto'>Our Learning Facilities</h1>
+        <h1 className='text-[#28374B] lg:text-[40px] text-[24px] font-prosto'>Our Learning Facilities</h1>
         <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Empowering Minds, Nuturing Hearts: Explore The Exceptional Learning Facilities That Fuel Our Educational Journey</p>
       </div>
       <div className="flex justify-center gap-[64px] mt-[54px] flex-col lg:flex-row items-center ">

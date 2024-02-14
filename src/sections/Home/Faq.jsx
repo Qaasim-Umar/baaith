@@ -35,7 +35,7 @@ const Faq = () => {
     return (
         <div>
             <div className="flex flex-col justify-center items-center my-[37px] gap-[19]">
-                <h1 className='text-[#28374B] text-[40px] font-prosto'>Frequently Asked Questions</h1>
+                <h1 className='text-[#28374B] lg:text-[40px] text-[24px] font-prosto'>Frequently Asked Questions</h1>
                 <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Got questions? We've got answers! Explore our Frequently Asked Questions for insights and information.</p>
             </div>
 

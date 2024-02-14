@@ -7,7 +7,7 @@ const ChooseUs = () => {
     <div className='bg-chooseus-background h-fit pb-5'>
 
       <div className="flex flex-col justify-center items-center  gap-[19]">
-        <h1 className='text-[#28374B] text-[40px] mt-[62px] font-prosto'>Why Choose Us?</h1>
+        <h1 className='text-[#28374B] mt-[62px] font-prosto lg:text-[40px] text-[24px] '>Why Choose Us?</h1>
         <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Choose Excellence, Embrace Expertise – Elevate Your Learning Journey with Us!</p>
       </div>
 

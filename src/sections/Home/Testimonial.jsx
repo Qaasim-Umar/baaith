@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div className='bg-testimonial-background h-auto pb-[106px]'>
 
             <div className="flex flex-col justify-center items-center pt-[70px] pb-[37px] gap-[19]">
-                <h1 className='text-[#28374B] text-[40px] font-prosto'>Testimonials</h1>
+                <h1 className='text-[#28374B] lg:text-[40px] text-[24px]  font-prosto'>Testimonials</h1>
                 <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Discover What Our Students  Have to Say – Real Stories, Real Transformations, Real Testimonials...</p>
             </div>
 
