@@ -56,7 +56,7 @@ const Faq = () => {
 
                         <div className="space-y-4">
                             {faqData.map((faq, index) => (
-                                <div key={index} className=" lg:w-[720px] min-w-[320px]">
+                                <div key={index} className=" lg:w-[720px] w-[180px]">
                                     <button className=" p-[25px] flex items-center justify-between w-full" onClick={() => toggleAnswer(index)}>
                                         <h1 className=" font-montserrat font-bold text-[#2E2C2C] leading-[19.5px] ">{faq.question}</h1>
                                         <span className={`text-gray-400 bg-gray-200 rounded-full ${openIndex === index ? 'transform rotate-45' : ''}`}>

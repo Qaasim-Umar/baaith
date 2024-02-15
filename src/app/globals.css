@@ -212,4 +212,15 @@
     color: gray;
   }
 
+
+  .custom-underline-active::after {
+    margin-left: 22.2px;
+  
+  }
+
+  .position {
+
+    top: -40px;
+    right: 40px;
+  }
 }
