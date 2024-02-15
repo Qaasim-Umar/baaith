@@ -4,7 +4,7 @@ import ChooseUsCard from '@/components/chooseUsCard'
 const ChooseUs = () => {
   return (
 
-    <div className='bg-chooseus-background h-fit pb-5'>
+    <div className='bg-chooseus-background h-fit pb-5 px-[23px]'>
 
       <div className="flex flex-col justify-center items-center  gap-[19]">
         <h1 className='text-[#28374B] mt-[62px] font-prosto lg:text-[40px] text-[24px] '>Why Choose Us?</h1>

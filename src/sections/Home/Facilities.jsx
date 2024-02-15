@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Facilities = () => {
   return (
-    <div className='bg-facilities-background relative mb-[100px]'>
+    <div className='bg-facilities-background relative mb-[100px px-[23px]'>
 
 
       <div className="flex position">
