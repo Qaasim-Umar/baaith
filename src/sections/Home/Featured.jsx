@@ -21,11 +21,11 @@ const Featured = () => {
 
       <div className="flex flex-col justify-center items-center mt-[70px] gap-[19]">
         <h1 className='text-[#28374B] lg:text-[40px] text-[24px] font-prosto leading-[48px]'>Featured Programs</h1>
-        <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center pb-[73px]'>Empowering Minds, Nuturing Hearts: Explore The Exceptional Learning Facilities That Fuel Our Educational Journey</p>
+        <p className='text-[14px] lg:text-[16px] px-[13px] text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] text-center pb-[73px]'>Empowering Minds, Nuturing Hearts: Explore The Exceptional Learning Facilities That Fuel Our Educational Journey</p>
       </div>
 
 
-      <div className='flex gap-[33px] justify-center items-center flex-col lg:flex-row '>
+      <div className='flex gap-[33px] justify-center items-center overflow-auto '>
       <Link href='/quranrecitation'> <FeaturedCard featuredSrc='/assets/images/quran2.png' featuredPara='Quran memorization' month='24' /></Link> 
         <FeaturedCard featuredSrc='/assets/images/tajweed.png' featuredPara='Tajweed' month='4' />
         <FeaturedCard featuredSrc='/assets/images/quran.png' featuredPara='Quran Recitation' month='3' />

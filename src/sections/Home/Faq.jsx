@@ -35,8 +35,8 @@ const Faq = () => {
     return (
         <div>
             <div className="flex flex-col justify-center items-center my-[37px] gap-[19]">
-                <h1 className='text-[#28374B] lg:text-[40px] text-[24px] font-prosto'>Frequently Asked Questions</h1>
-                <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] max-w-[540px] text-center'>Got questions? We&apos;ve got answers! Explore our Frequently Asked Questions for insights and information.</p>
+                <h1 className='text-[#28374B] lg:text-[40px] text-[23px] font-prosto'>Frequently Asked Questions</h1>
+                <p className='text-[#5E6978] font-montserrat font-medium leading-[19.2px] tracking-[0.32px] text-[14px] lg:text-[16px] px-[13px] text-center'>Got questions? We&apos;ve got answers! Explore our Frequently Asked Questions for insights and information.</p>
             </div>
 
             <div className="flex justify-center items-center flex-col lg:flex-row gap-8">
@@ -56,7 +56,7 @@ const Faq = () => {
 
                         <div className="space-y-4">
                             {faqData.map((faq, index) => (
-                                <div key={index} className=" lg:w-[720px] w-[180px]">
+                                <div key={index} className=" lg:w-[720px] w-[300px]">
                                     <button className=" p-[25px] flex items-center justify-between w-full" onClick={() => toggleAnswer(index)}>
                                         <h1 className=" font-montserrat font-bold text-[#2E2C2C] leading-[19.5px] ">{faq.question}</h1>
                                         <span className={`text-gray-400 bg-gray-200 rounded-full ${openIndex === index ? 'transform rotate-45' : ''}`}>
